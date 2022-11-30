@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  create-changelog:
+  Create-changelog:
   runs-on: ubuntu-latest
   steps:
     - name: Create changelog page
