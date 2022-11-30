@@ -1,7 +1,6 @@
 name: Create changelog
 
-on:
-  workflow_dispatch:
+on: [push]
 
 jobs:
   Create-changelog:
