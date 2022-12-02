@@ -11,6 +11,7 @@ jobs:
         uses: ncipollo/release-action@v1
         id: create_release
         with:
-          tag: "1.0.0"
+          tag: "1.0.1"
+          commit: true
           token: ${{ secrets.GITHUB_TOKEN }}
           generateReleaseNotes: true
